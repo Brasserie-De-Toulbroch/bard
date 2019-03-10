@@ -5,4 +5,4 @@ set(BARD_SRCS
 add_library(bard SHARED ${BARD_SRCS})
 
 install(TARGETS bard DESTINATION lib)
-install(FILES ds18b20.h DESTINATION include/bard)
+install(FILES ds18b20/ds18b20.h DESTINATION include/bard)
