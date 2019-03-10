@@ -8,7 +8,7 @@
 #include <sstream>
 #include <string>
 
-#include "dev/ds18b20/ds18b20.h"
+#include "ds18b20/ds18b20.h"
 
 void test_basic() {
   const std::string slaveid("ds18b20_slaveid");

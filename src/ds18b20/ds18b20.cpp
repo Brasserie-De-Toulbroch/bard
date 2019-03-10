@@ -3,7 +3,7 @@
 #include <sstream>
 #include <string>
 
-#include <ds18b20.h>
+#include <ds18b20/ds18b20.h>
 
 using namespace bard;
 
