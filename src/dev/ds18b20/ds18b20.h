@@ -2,6 +2,7 @@
 
 #include <string>
 
+namespace bard {
 class DS18B20 {
  public:
   DS18B20(const std::string &id,
@@ -12,3 +13,4 @@ class DS18B20 {
  private:
   std::string _path;
 };
+}

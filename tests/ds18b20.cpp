@@ -27,7 +27,7 @@ void test_basic() {
   os << "7c 01 4b 46 7f ff 04 10 09 t=23750[/bash]" << std::endl;
   os.close();
 
-  DS18B20 ds18b20(slaveid, "/tmp");
+  bard::DS18B20 ds18b20(slaveid, "/tmp");
   assert(ds18b20.temperature() == 23.75);
 }
 

@@ -5,6 +5,8 @@
 
 #include <ds18b20.h>
 
+using namespace bard;
+
 DS18B20::DS18B20(const std::string &id, const std::string &path) {
   std::ostringstream ss;
   ss << path << "/" << id << "/w1_slave";
