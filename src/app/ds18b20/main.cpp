@@ -48,7 +48,8 @@ int main(int argc, char** argv) {
 
   // print data
   while (again) {
-    std::cout << "Temperature: " << device.temperature() << std::endl;
+    const float temperature = device.temperature();
+    std::cout << "Temperature: " << temperature << std::endl;
     sleep(1);
   }
 

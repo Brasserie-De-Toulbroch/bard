@@ -29,6 +29,9 @@ float DS18B20::temperature() const {
       }
     }
     infile.close();
+  } else {
+    std::cerr << "[DS18B20] Error: file '" << _path << "' does not exist."
+              << std::endl;
   }
 
   return temperature;
